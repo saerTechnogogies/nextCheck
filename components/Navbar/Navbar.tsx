@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useCallback, useState } from 'react'
-import { Badge ,Dropdown, IconButton } from 'rsuite';
+
 import { NavAuthLinks, NavLinks } from '../../constant';
 import './navbar.css'
 
