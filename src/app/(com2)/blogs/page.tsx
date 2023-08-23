@@ -30,7 +30,7 @@ export default async function pageBlog() {
         {allBlogs?.data?.length > 0 ? (
           allBlogs?.data?.map((d:PerticularBlogs,i:number)=>(
             <div key={i+1} >
-               <Image src={d?.image} width={200} height={100} style={{objectFit:'cover'}} alt="Picture of the author"  />
+               <img src={d?.image} width={200} height={100} style={{objectFit:'cover'}} alt="Picture of the author"  />
                <Link href={`/blogs/${d?.slug}/`}>{d?.title}</Link>
                <p>{d?.short_description}</p>
             </div>

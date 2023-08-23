@@ -30,7 +30,7 @@ export default function CsrAllBlog() {
       <h3 style={{ textAlign: "center" }}>All Blogs (CSR)</h3>
       {data?.data?.map((d, i) => (
         <div key={i + 1} style={{ textAlign: "center" }}>
-          <Image
+          <img
             src={d?.image}
             width={200}
             height={100}

@@ -410,7 +410,7 @@ export default async function blogDetailCom({params} : ParamsProps){
 
         <h3 style={{ textAlign: "center" }}> Blogs Detail (SSR)</h3>
         <main style={{textAlign:'center'}} className="blog-detail-wrapper">
-             <Image src={bdetail?.response?.image} width={200} height={100} style={{objectFit:'cover'}} alt="Picture of the author"  />
+             <img src={bdetail?.response?.image} width={200} height={100} style={{objectFit:'cover'}} alt="Picture of the author"  />
             <h1 className="y">{bdetail?.response?.title}</h1>
             <p>{bdetail?.response?.short_description}</p>
               <figure

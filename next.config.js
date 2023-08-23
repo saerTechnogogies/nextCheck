@@ -12,5 +12,6 @@ module.exports = {
         // pathname: "/account123/**",
       },
     ],
+    unoptimized: true,
   },
 };

@@ -382,7 +382,7 @@ export default function CsrBlogDetail({ params }) {
 
       <h3 style={{ textAlign: "center" }}> Blogs Detail (CSR)</h3>
       <main style={{ textAlign: "center" }} className="blog-detail-wrapper">
-        <Image
+        <img
           src={data?.response?.image}
           width={200}
           height={100}
