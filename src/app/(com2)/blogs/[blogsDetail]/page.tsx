@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 
 interface ParamsProps {
@@ -28,10 +27,10 @@ export default async function blogDetailCom({params} : ParamsProps){
             <h1 className="y">{bdetail?.response?.title}</h1>
             <p>{bdetail?.response?.short_description}</p>
               <figure
-                          dangerouslySetInnerHTML={{
-                            __html: bdetail?.response?.description,
-                          }}
-                        ></figure>
+                   dangerouslySetInnerHTML={{
+                 __html: bdetail?.response?.description,
+                 }}
+              ></figure>
         </main>
         </>
     )
