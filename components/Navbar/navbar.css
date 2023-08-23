@@ -1,0 +1,28 @@
+
+.navbar-parent{
+         display: flex;
+            padding: 20px 50px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: antiquewhite
+};
+.navbar-parent .nav-logo{
+    font-size: 36px;
+    color: #00A0FF;
+}
+.navbar-parent .nav-logo a  .s-color{
+    color :#131B5F !important
+}
+
+.navbar-parent .nav-pages-link{
+   padding: 0px 10px;
+ 
+} 
+
+.navbar-parent a{
+   padding: 0px 10px;
+   text-decoration: none;
+   color: #00A0FF;
+   font-size: 16px;
+   font-weight: 500;
+}
